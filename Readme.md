@@ -41,6 +41,12 @@ venv\Scripts\activate
 .\venv\Scripts\Activate.ps1
 ```
 
+### Install Dependencies
+
+```bash
+pip install -r requirement.txt
+```
+
 ---
 
 ## 👤 Author
