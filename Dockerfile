@@ -1,11 +1,11 @@
-FROM python:3.15.0a3-alpine3.23
+FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY requirement.txt ./
+COPY requirements.txt .
 
-RUN pip install -r requirement.txt
+RUN pip install -r requirements.txt
 
-COPY . ./
+COPY . .
 
 CMD [ "flask","--app","src.app","run","--host=0.0.0.0", "--port=5000" ]
