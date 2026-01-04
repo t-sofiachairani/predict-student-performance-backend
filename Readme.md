@@ -49,6 +49,9 @@ pip install -r requirement.txt
 
 ---
 
+## Notebook
+ Student Performance (v1.0.0)
+
 ## 👤 Author
 
 Nugrah Anggara Siregar
